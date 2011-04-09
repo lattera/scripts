@@ -1,9 +1,9 @@
-#!/usr/bin/env python
+#!/usr/local/bin/python
 
 import os, time, sys
 
 if len(sys.argv) < 2:
-  print "USAGE: " + sys.argv[0] + " [frequent|daily|weekly|monthly]"
+  print "USAGE: " + sys.argv[0] + " [frequent|hourly|daily|weekly|monthly]"
   exit(1)
 
 date = time.strftime("%Y-%m-%d_%H.%M.%S")
